@@ -1,0 +1,209 @@
+{
+    "app": {
+        "name": "Soilbird",
+        "description": "Jalkapallonurmien monitorointialusta",
+        "version": "Alpha version 0.1"
+    },
+    "login": {
+        "btn": "Kirjaudu",
+        "usernameLabel": "Käyttäjänimi",
+        "passwordLabel": "Salasana"
+    },
+    "waterCompare": {
+        "graphPropertySelectorTitle": "Kiinteistöt",
+        "graphDateTitle": "Aikajakso",
+        "graphEmpty": "Ei löytynyt dataa",
+        "propertySelectorInfo": ["Jokaisella kiinteistöllä on vesimittari, joka lukee vedenmenoa yhdelle tai monelle jalkapallonurmelle.",
+        "Kiinteistöihin kuuluu yksittäisiä jalkapallonurmia tai liikuntakiinteistöjä, joihin kuuluu monta jalkapallonurmea.",
+        "Valitse kiinteistöt eli nurmet minkä kokonaisvedenkulutusta haluat tutkia."],
+
+        "axisTitleY": "Vedekulutus litroina (l)",
+        "axisTitleX": "Aika",
+        "axisTooltipFormatterY": "Litraa",
+
+        "snackbarSuccess": "Vedenkulutustiedot haettiin onnistuneesti.",
+        "snackbarFailureTime": "Ei voitu hakea vedenkulutusta. Tarkista määrittämäsi ajanjakso",
+        "snackbarFailureProperty": "Ei voitu hakea vedenkulutusta. Tarkista määrittämäsi vertailukiinteistöt"
+    },
+    "users": {
+        "title": "Luo uusi käyttäjä",
+        "created": "Uusi käyttäjä luotiin!",
+        "listTitle": "Käyttäjänhallintapaneeli",
+        "createTitle": "Käyttäjän luonti",
+        "buttons": {
+            "submit": "Luo käyttäjä",
+            "clear": "Tyhjennä valinnat"
+        },
+        "validation": {
+            "usernameRequired": "Käyttäjänimi vaaditaan.",
+            "usernameTaken": "Käyttäjänimi on jo otettu.",
+            "passwordRequired": "Salasana vaaditaan.",
+            "passwordMinLength": "Salasanassa pitää olla vähintään {n} kirjainta."
+        },
+        "credentials": [
+            "Kenttätyöntekijä",
+            "Esimies",
+            "Järjestelmänvalvoja",
+            "Root"
+        ]
+    },
+    "logic": {
+        "innerMax": "Maksimiraja",
+        "innerMaxTooltip": "",
+        "innerWarningHigh": "Korkea varoitusraja",
+        "innerWarningHighTooltip": "",
+        "innerNormal": "Tavoitearvo",
+        "innerTooltip": "",
+        "innerWarningLow": "Matala varoitusraja",
+        "innerWarningLowTooltip": "",
+        "innerMin": "Minimiraja",
+        "innerMinTooltip": "",
+        "currentThreshold": "Nykyinen arvo on {n}",
+
+        "createLogicBtn": "Luo logiikka",
+        "editLogicBtn": "Muokkaa logiikkaa",
+        "deleteLogicBtn": "Poista logiikka",
+        "cancel": "Peruuta",
+        "propertyAll": "Koko kiinteistö",
+        "noLogicCreated": "Paikalle ei ole luotu vielä omaa logiikkaa.",
+        "formRuleRequired": "Kenttä on täytettävä!",
+        "formRuleNumber": "Arvon on oltava numero 1-1000 välillä."
+
+    },
+    "property": {
+        "id": "Tunnus",
+        "name": "Nimi",
+        "coordinates": "Koordinaatit",
+        "zip": "Postinumero",
+        "waterGauges": "Vesimittarit",
+        "pathName": "Polun nimi",
+        "turfs": "Nurmet kiinteistöllä",
+        "latitude":"Leveysaste",
+        "longitude":"Pituusaste",
+
+        "parentProperty": "Isäntäkiinteistö",
+        "sensorsGroup": "Sensoriryhmä",
+        "sprinklersGroup": "Sadetinryhmä",
+
+        "propertyCreationTitle": "Luo uusi kiinteistö",
+        "turfCreationTitle": "Luo uusi nurmi kiinteistölle {n}",
+        "confirmDeletePropertyTitle": "Oletko varma, että haluat poistaa kiinteistön?",
+        "confirmDeletePropertySubtitle": "Toiminto on lopullinen. Poistamisen jälkeen et voi saada enää kiinteistöä takaisin.",
+        "confirmDeleteBtn": "Poista",
+        "confirmDeleteBackBtn": "Takaisin",
+
+
+        "notDefined": "Ei ole määritelty",
+        "notYetDefined": "Ei ole vielä määritelty",
+        "notZip": "Pitää olla postinumero (5 numeroa)",
+        "notCoord": "Pitää olla oikea koordinaatti",
+        "notID": "Pitää olla oikea tunnus",
+        "hintWaterGauge": "Jos vesimittareita on enemmän kun yksi, erottele mittarinumerot pilkulla. (Esimerkiksi H00000,H00001)"
+    },
+    "navigation": {
+        "drawerTitles": {
+            "summary": "Yhteenveto kentistä",
+            "turf": "Jalkapallokentät",
+            "compare": "Vertaile vedenkulutusta",
+            "systemControl": "Järjestelmän hallinta",
+            "changeMode": "Vaihda käyttäjätilaa",
+            "logout": "Kirjaudu ulos"
+        },
+        "drawerSubheaders": {
+            "editActions": "Järjestelmän muokkaus",
+            "users": "Käyttäjät",
+            "logic": "Logiikka",
+            "property": "Kiinteistöt ja nurmet",
+            "sensors": "Sensorit"
+        }
+    },
+    "turfMonitorPage": {
+        "turfTabTitles": {
+            "all": "Kaikki nurmet",
+            "single": "Nurmi {n}"
+        },
+        "deviceMonitor": {
+            "title": "Laitemonitori alueella {n}",
+            "titleAlt": "Maaperäsensoritutka",
+            "averages": "Keskiarvot",
+            "goals": "Tavoitearvot",
+            "graph": {
+                "dateStartLabel": "Alkaen",
+                "dateEndLabel": "Asti",
+                "dateExit": "Pois",
+                "weekAbbreviation": "1 VK",
+                "twoWeekAbbreviation": "2 VK",
+                "monthAbbreviation": "1 KK",
+                "threeMonthAbbreviation": "3 KK"
+            }
+        },
+        "notification": {
+            "cardTitle": "Ilmoitukset alueelta",
+            "checked": "Ilmoitus kuitattu!",
+            "localized": {
+                "titleTooHigh": "{n} on liian korkea",
+                "titleTooLow": "{n} on liian matala",
+                "titleBroken": "{n} on rikki",
+                "detailsBroken": "Tarkista sensorin kunto.",
+                "details": "Nykyinen {currentKey} on {currentValue}. Tavoite on {targetValue}."
+            }
+        },
+        "sensors": {
+            "name": "Sensori | Sensorin",
+            "moisture": "Kosteus",
+            "temperature": "Lämpötila",
+            "salinity": "Suolapitoisuus",
+            "latitude": "Leveysaste",
+            "longitude": "Pituusaste",
+            "depth": "Syvyys",
+            "status": {
+                "ok": "Arvot ovat normaalit",
+                "warning": "Arvoissa on huomioitava",
+                "danger": "Toimenpiteitä vaaditaan",
+                "error": "Laite ei toimi oikein"
+            },
+            "soilSpecs": "Maaperän tiedot",
+            "location": "Sijainti",
+            "serialNumber": "Sarjanumero",
+            "soilType": "Maaperän tyyppi",
+            "density": "Tiheys",
+            "fieldCapacity": "Kenttäkapasiteetti",
+            "wiltingPoint": "Lakastumispiste",
+            "irrigationThreshold": "Sadetusraja",
+            "loam": "Hiekansekainen savi",
+            "clay": "Savi",
+            "organic": "Orgaaninen",
+            "sand": "Hiekka",
+
+            "deviceCreationTitle": "Luo uusi sensori",
+            "deviceEditTitle": "Muokkaa sensoria",
+            "deviceCreated": "Uusi sensori luotiin onnistuneesti!",
+            "deviceCreationFailure": "Uuden sensorin luonti epäonnistui!",
+            "deviceEdited": "Sensoria muokattiin onnistuneesti!",
+            "deviceEditFailure": "Sensorin muokkaus epäonnistui!",
+            "deviceDeleted": "Sensori poistettiin onnistuneesti!",
+            "deviceDeleteFailure": "Sensorin poistaminen epäonnistui!",
+            "confirmDeleteSensorTitle": "Oletko varma, että haluat poistaa sensorin?",
+            "confirmDeleteSensorSubtitle": "Toiminto on lopullinen. Poistamisen jälkeen sinun on lisättävä sensori uudestaan mikäli haluat hyödyntää sitä."
+        }
+        
+    },
+    "router": {
+        "breadcrumbs": {
+            "property": "Jalkapallokentät",
+            "compare": "Vertailu"
+        }
+    },
+    "validation": {
+        "required": "Pakollinen kenttä",
+        "minLength": "Pitää olla vähintään {n} kirjainta",
+        "between": "Arvon pitää olla {n1} ja {n2} välillä"
+    },
+    "errors": {
+        "sensorLoadFailed": "Sensorien haku epäonnistui.",
+        "noInstance": "Rajapintaan ei voitu muodostaa yhteyttä."
+    },
+    "success": {
+        "emptyNotifications": "Ei ilmoitettavaa"
+    }
+}

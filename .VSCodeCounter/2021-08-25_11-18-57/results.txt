@@ -1,0 +1,115 @@
+Date : 2021-08-25 11:18:57
+Directory : c:\Users\Topias\VSCodeProjects\soilbird-helsinki
+Total : 72 files,  20551 codes, 284 comments, 493 blanks, all 21328 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          5 |     14,387 |         11 |         12 |     14,410 |
+| Vue        |         23 |      4,862 |        155 |        317 |      5,334 |
+| TypeScript |         38 |      1,232 |        113 |        148 |      1,493 |
+| SCSS       |          1 |         21 |          4 |          6 |         31 |
+| Markdown   |          1 |         19 |          0 |          6 |         25 |
+| HTML       |          1 |         18 |          1 |          1 |         20 |
+| JavaScript |          2 |         11 |          0 |          2 |         13 |
+| XML        |          1 |          1 |          0 |          1 |          2 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                       | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                          |         72 |     20,551 |        284 |        493 |     21,328 |
+| public                                                                                     |          1 |         18 |          1 |          1 |         20 |
+| src                                                                                        |         65 |      6,321 |        272 |        481 |      7,074 |
+| src\assets                                                                                 |          2 |         22 |          4 |          7 |         33 |
+| src\auth                                                                                   |          1 |         12 |          0 |          2 |         14 |
+| src\components                                                                             |          9 |      2,347 |        132 |        198 |      2,677 |
+| src\i18n                                                                                   |          4 |        221 |          0 |         12 |        233 |
+| src\plugins                                                                                |          1 |          5 |          0 |          3 |          8 |
+| src\router                                                                                 |          1 |        220 |         66 |         15 |        301 |
+| src\services                                                                               |         16 |        712 |         38 |         95 |        845 |
+| src\static                                                                                 |         12 |        173 |          6 |         16 |        195 |
+| src\store                                                                                  |          1 |         13 |          0 |          3 |         16 |
+| src\views                                                                                  |         13 |      2,482 |         23 |        107 |      2,612 |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                   | language   | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\README.md                                 | Markdown   |         19 |          0 |          6 |         25 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\babel.config.js                           | JavaScript |          5 |          0 |          1 |          6 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\package-lock.json                         | JSON       |     14,079 |          0 |          1 |     14,080 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\package.json                              | JSON       |         72 |          0 |          1 |         73 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\public\index.html                         | HTML       |         18 |          1 |          1 |         20 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\App.vue                               | Vue        |         33 |          0 |         12 |         45 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\assets\global.scss                    | SCSS       |         21 |          4 |          6 |         31 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\assets\logo.svg                       | XML        |          1 |          0 |          1 |          2 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\auth\UserType.ts                      | TypeScript |         12 |          0 |          2 |         14 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\components\ComparisonChart.vue        | Vue        |        415 |         68 |         56 |        539 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\components\DateTimeChooser.vue        | Vue        |        177 |          3 |          6 |        186 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\components\DeviceMonitor.vue          | Vue        |        552 |         12 |         27 |        591 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\components\HelloWorld.vue             | Vue        |        142 |          0 |         12 |        154 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\components\NavDrawerBoss.vue          | Vue        |        161 |          1 |          9 |        171 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\components\NavDrawerCommon.vue        | Vue        |         84 |          0 |          5 |         89 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\components\Notifications.vue          | Vue        |        241 |          1 |         20 |        262 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\components\SensorChip.vue             | Vue        |        222 |         11 |         19 |        252 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\components\SensorGraph.vue            | Vue        |        353 |         36 |         44 |        433 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\i18n\en.json                          | JSON       |         47 |          0 |          1 |         48 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\i18n\fi.json                          | JSON       |        158 |          0 |          8 |        166 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\i18n\index.ts                         | TypeScript |          8 |          0 |          2 |         10 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\i18n\locales.ts                       | TypeScript |          8 |          0 |          1 |          9 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\main.ts                               | TypeScript |         63 |          1 |          7 |         71 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\plugins\vuetify.ts                    | TypeScript |          5 |          0 |          3 |          8 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\router\index.ts                       | TypeScript |        220 |         66 |         15 |        301 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\services\AuthAPI.ts                   | TypeScript |         45 |          6 |          5 |         56 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\services\BaseAPI.ts                   | TypeScript |         63 |          3 |          5 |         71 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\services\NotificationLocalizer.ts     | TypeScript |        139 |         13 |         25 |        177 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\services\NotificationsAPI.ts          | TypeScript |         84 |          0 |          8 |         92 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\services\SoilscoutAPILibrary.ts       | TypeScript |         94 |         11 |         16 |        121 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\services\SoilscoutAPIResponseTypes.ts | TypeScript |         68 |          0 |          4 |         72 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\services\SportsPropertyAPI.ts         | TypeScript |         87 |          0 |          9 |         96 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\services\UsersAPI.ts                  | TypeScript |         66 |          0 |          6 |         72 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\services\WaterAPI.ts                  | TypeScript |         17 |          5 |          3 |         25 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\services\auth-api.d.ts                | TypeScript |          7 |          0 |          2 |          9 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\services\base-api.d.ts                | TypeScript |          7 |          0 |          2 |          9 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\services\notifications-api.d.ts       | TypeScript |          7 |          0 |          2 |          9 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\services\soilscout-api.d.ts           | TypeScript |          7 |          0 |          2 |          9 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\services\sports-property-api.d.ts     | TypeScript |          7 |          0 |          2 |          9 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\services\users-api.d.ts               | TypeScript |          7 |          0 |          2 |          9 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\services\water-api.d.ts               | TypeScript |          7 |          0 |          2 |          9 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\shims-tsx.d.ts                        | TypeScript |         10 |          2 |          2 |         14 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\shims-vue.d.ts                        | TypeScript |          4 |          0 |          1 |          5 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\shims-vuetify.d.ts                    | TypeScript |          4 |          0 |          1 |          5 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\static\ComparisonProperty.ts          | TypeScript |          5 |          3 |          1 |          9 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\static\FiksuvesiResponse.ts           | TypeScript |         20 |          0 |          2 |         22 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\static\FootballFieldAll.ts            | TypeScript |          6 |          0 |          1 |          7 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\static\LastMeasurement.ts             | TypeScript |         12 |          0 |          0 |         12 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\static\NotificationEnumerators.ts     | TypeScript |         28 |          0 |          5 |         33 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\static\NotificationsType.ts           | TypeScript |         14 |          0 |          0 |         14 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\static\SensorStatus.ts                | TypeScript |         37 |          0 |          3 |         40 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\static\SportsPropertyType.ts          | TypeScript |         11 |          0 |          0 |         11 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\static\StringLibrary.ts               | TypeScript |         14 |          3 |          1 |         18 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\static\TurfType.ts                    | TypeScript |         13 |          0 |          0 |         13 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\static\UserModeEnumerator.ts          | TypeScript |          6 |          0 |          1 |          7 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\static\string-library.d.ts            | TypeScript |          7 |          0 |          2 |          9 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\store\index.ts                        | TypeScript |         13 |          0 |          3 |         16 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\views\About.vue                       | Vue        |          5 |          0 |          1 |          6 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\views\AllFields.vue                   | Vue        |        130 |          7 |         16 |        153 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\views\ComparisonTool.vue              | Vue        |         24 |          0 |          3 |         27 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\views\DashboardBoss.vue               | Vue        |         14 |          0 |          4 |         18 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\views\DashboardCommon.vue             | Vue        |         12 |          0 |          4 |         16 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\views\Field.vue                       | Vue        |         40 |          0 |          6 |         46 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\views\Home.vue                        | Vue        |         13 |          0 |          4 |         17 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\views\LogicEdit.vue                   | Vue        |      1,229 |          0 |         29 |      1,258 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\views\Login.vue                       | Vue        |        103 |          1 |         11 |        115 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\views\PageNotFound.vue                | Vue        |         11 |          0 |          5 |         16 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\views\PropertyEdit.vue                | Vue        |        703 |         15 |         13 |        731 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\views\Summary.vue                     | Vue        |         16 |          0 |          3 |         19 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\src\views\UsersEdit.vue                   | Vue        |        182 |          0 |          8 |        190 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\tsconfig.json                             | JSON       |         31 |         11 |          1 |         43 |
+| c:\Users\Topias\VSCodeProjects\soilbird-helsinki\vue.config.js                             | JavaScript |          6 |          0 |          1 |          7 |
+| Total                                                                                      |            |     20,551 |        284 |        493 |     21,328 |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

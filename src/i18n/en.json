@@ -1,0 +1,48 @@
+{
+    "app": {
+        "name": "Soilbird"
+    },
+    "navigation": {
+        "drawerTitles": {
+            "summary": "Yhteenveto kentistä",
+            "turf": "Jalkapallokentät",
+            "compare": "Vertaile vedenkulutusta",
+            "changeMode": "Vaihda käyttäjätilaa",
+            "logout": "Kirjaudu ulos"
+        }
+    },
+    "turfMonitorPage": {
+        "turfTabTitles": {
+            "all": "Kaikki nurmet",
+            "single": "Nurmi {n}"
+        },
+        "deviceMonitor": {
+            "graph": {
+                "dateStartLabel": "Alkaen",
+                "dateEndLabel": "Asti",
+                "dateExit": "Pois",
+                "weekAbbreviation": "1 VK",
+                "twoWeekAbbreviation": "2 VK",
+                "monthAbbreviation": "1 KK",
+                "threeMonthAbbreviation": "3 KK"
+            }
+        },
+        "localizedNotification": {
+            "titleTooHigh": "{n} on liian korkea",
+            "titleTooLow": "{n} on liian matala",
+            "details": "Nykyinen {currentKey} on {currentValue}. Tavoite on {targetValue}."
+        },
+        "sensors": {
+            "moisture": "Kosteus",
+            "temperature": "Lämpötila",
+            "salinity": "Suolapitoisuus",
+            "popupLatitudeTitle": "Leveysaste",
+            "popupLongitudeTitle": "Pituusaste"
+        }
+        
+    },
+    "errors": {
+        "sensorLoadFailed": "Sensorien haku epäonnistui.",
+        "noInstance": "Rajapintaan ei voitu muodostaa yhteyttä."
+    }
+}

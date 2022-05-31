@@ -1,0 +1,33 @@
+// In vuetify - light-green
+$success-green: #8BC34A;
+// In vuetify - yellow
+$warning-yellow: #FFEB3B;
+// In vuetify - amber darken-4
+$alert-orange: #FF6F00;
+// In vuetify - red darken-4
+$error-red: #B71C1C;
+
+// light blue A400
+$indicator-water: #00B0FF;
+// red 500
+$indicator-temperature: #F44336;
+//teal A700
+$indicator-salinity: #00BFA5;
+
+.default-border-shadow {
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+
+@mixin custom-max-width($screen) {
+    @media (max-width: $screen+'px') {
+        @content;
+    }
+ }
+
+ @mixin custom-min-width($screen) {
+    @media (min-width: $screen+'px') {
+        @content;
+    }
+ }
